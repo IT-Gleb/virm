@@ -1,5 +1,7 @@
 # Верстка по [макету Figma](https://www.figma.com/file/NrPZZU8u1sLytOicIHcIAx/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82?type=design&node-id=1-9&mode=design&t=s98IPuOk6ylo6RXW-0)
 
+## Адаптив.
+
 Использовал:
 
 # Vue 3 + TypeScript + Vite + Tailwindcss

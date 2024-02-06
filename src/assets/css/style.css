@@ -1,0 +1,15 @@
+@import url("./nitroFont.css");
+@import url("./nextFont.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Nitro";
+  }
+  body {
+    @apply bg-white overflow-x-hidden;
+  }
+}

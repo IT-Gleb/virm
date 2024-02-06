@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Nitro";
+  src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nitro Light";
+  src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt-Light.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nitro Bold";
+  src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt-Bold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nitro SemiBold";
+  src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nitro Thin";
+  src: url("../fonts/Nunito_Sans/static/NunitoSans_10pt_Condensed-Light.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-display: swap;
+}

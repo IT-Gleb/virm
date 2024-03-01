@@ -129,6 +129,7 @@
     >
       <p>ИП Константинопольский К.К., 2023</p>
       <p class="pt-2">Политика обработки персональных данных</p>
+      <p class="text-left p-4">Верстка Gleb Torgashin 2023.</p>
     </div>
   </footer>
 </template>

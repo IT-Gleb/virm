@@ -1,0 +1,1 @@
+import{_ as e,o,c as n,r}from"./index-rotHoF1g.js";const c={},s={class:"w-[157px] h-[44px] rounded-[4px] px-[24px] py-[12px] bg-btnBlack text-btnText font-nitro text-[16px] leading-5 hover:bg-aRefColor active:bg-bgCol1 active:text-btnText"};function a(t,x){return o(),n("button",s,[r(t.$slots,"default")])}const p=e(c,[["render",a]]);export{p as default};

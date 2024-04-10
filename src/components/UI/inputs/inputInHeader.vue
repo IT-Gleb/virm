@@ -1,8 +1,13 @@
 <script setup lang="ts">
+import pic1 from "/src/assets/images/buttons/arrow_done.svg";
+import pic2 from "/src/assets/images/buttons/calendar.svg";
 defineProps<{ placeText: string; labelText: string; howPic: number }>();
 const checkClick = (event: MouseEvent) => {
   event.preventDefault();
 };
+
+// console.log(pic1);
+// console.log(pic2);
 </script>
 
 <template>
@@ -18,12 +23,9 @@ const checkClick = (event: MouseEvent) => {
       <button class="absolute right-4 pl-2" @click="checkClick">
         <img
           class="w-[18px] h-[18px]"
-          :src="
-            howPic === 0
-              ? '/src/assets/images/buttons/arrow_done.svg'
-              : '/src/assets/images/buttons/calendar.svg'
-          "
+          :src="howPic === 0 ? pic1 : pic2"
           alt="arrow"
+          loading="lazy"
         />
       </button>
       <!-- "Локация для тура" -->
